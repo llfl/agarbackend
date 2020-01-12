@@ -5,7 +5,7 @@
 
 html, body {
     background-color: #222;
-    overflow: hidden;
+    overflow: auto;
 }
 
 html, body, canvas {
