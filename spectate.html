@@ -8,11 +8,14 @@
 </head>
 <body>
     <style>
-        .iframe-shrink{transform:scale(1);}
+        .iframe-shrink{transform:scale(0.2);}
         .gridWarp{
+            position: absolute;
+            top: 0px;
+            left: 0px;
             display: grid;
-            grid-template-columns: repeat(5,1fr);
-            grid-template-rows: repeat(5,1fr);
+            grid-template-columns: repeat(5,384px);
+            grid-template-rows: repeat(5,216px);
         }
     </style>
     <!-- <div class="iframe-body-sty">
@@ -22,8 +25,8 @@
 
     </div> -->
     <div class="gridWarp">
-        <iframe class="iframe-shrink" src="http://room1.brainbook.top" width="1920px" height="1080px" >1</iframe>
-        <iframe class="iframe-shrink" src="http://room2.brainbook.top" width="1920px" height="1080px">2</iframe>
+        <iframe class="iframe-shrink" src="http://room1.brainbook.top" width="1920px" height="1080px" ></iframe>
+        <iframe class="iframe-shrink" src="http://room2.brainbook.top" width="1920px" height="1080px"></iframe>
         <iframe class="iframe-shrink" src="http://room3.brainbook.top" width="1920px" height="1080px" ></iframe>
         <iframe class="iframe-shrink" src="http://room4.brainbook.top" width="1920px" height="1080px"></iframe>
         <iframe class="iframe-shrink" src="http://room5.brainbook.top" width="1920px" height="1080px" ></iframe>
