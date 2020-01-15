@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>总视角</title>
+</head>
+<body>
+    <style>
+        .iframe-shrink{transform:scale(0.5);}
+        .gridWarp{
+            position: absolute;
+            top: -300px;
+            left: -500px;
+            display: grid;
+            grid-template-columns: repeat(2,960px);
+            grid-template-rows: repeat(2,540px);
+        }
+    </style>
+    <!-- <div class="iframe-body-sty">
+        <iframe id="iframe-shrink" src="http://room1.brainbook.top:30" width="1920px" height="1080px" style="top:0%;left:0%;"></iframe>
+        <iframe id="iframe-shrink" src="http://room1.brainbook.top:30" width="1920px" height="1080px"></iframe>
+        
+
+    </div> -->
+    <div class="gridWarp">
+        <iframe class="iframe-shrink" src="http://room1.brainbook.top:3001" width="1920px" height="1080px" ></iframe>
+        <iframe class="iframe-shrink" src="http://room2.brainbook.top:3002" width="1920px" height="1080px"></iframe>
+        <iframe class="iframe-shrink" src="http://room3.brainbook.top:3003" width="1920px" height="1080px" ></iframe>
+        <iframe class="iframe-shrink" src="http://room4.brainbook.top:3004" width="1920px" height="1080px"></iframe>
+        
+    </div>
+</body>
+</html>
